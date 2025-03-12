@@ -11,7 +11,6 @@ class home extends StatelessWidget {
             style: TextStyle(
               fontFamily: 'DmSans',
               fontWeight: FontWeight.w700,
-              
             )),
         centerTitle: true,
       ),
