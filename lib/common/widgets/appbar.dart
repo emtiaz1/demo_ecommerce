@@ -19,6 +19,7 @@ class DAppBar extends StatelessWidget implements PreferredSizeWidget {
           color: DColors.oceanBlue,
         ),
       ),
+      
       centerTitle: true,
       actions: [
         Container(
