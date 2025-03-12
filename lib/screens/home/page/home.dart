@@ -9,9 +9,11 @@ class home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: DAppBar(),
+      appBar: DAppBar(
+        title: 'Mega Shop',
+        secondIcon: IonIcons.cart,
+        back: true,
+      ),
     );
   }
 }
-
-
