@@ -1,7 +1,7 @@
 // Colors.dart
 import 'package:flutter/material.dart';
 
-class FColors {
+class DColors {
   //Primary
   static const primary = Color(0xFF5CC936);
   static const primaryOrange = Color(0xFFFFC120);
