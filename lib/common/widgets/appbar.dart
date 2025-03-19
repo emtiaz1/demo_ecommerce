@@ -20,7 +20,7 @@ class DAppBar extends StatelessWidget implements PreferredSizeWidget {
   @override
   Widget build(BuildContext context) {
     return AppBar(
-      leading: back? Icon(Iconsax.arrow_left_2_outline): null,
+      leading: back ? Icon(Iconsax.arrow_left_2_outline) : null,
       title: Text(
         title,
         style: TextStyle(
